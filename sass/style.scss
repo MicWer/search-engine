@@ -1,0 +1,62 @@
+body {
+  background: url('./../img/background.jpg') no-repeat;
+  background-size: cover;
+}
+
+#container {
+
+  .entry {
+    margin: 30px auto;
+    width: 800px;
+    padding: 20px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .filterBox {
+    width: 800px;
+    margin: 0 auto;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    >input, >select {
+      border: 2px solid black;
+      border-radius: 5px;
+    }
+
+    >input {
+      margin: 10px 20px 10px 130px;
+    }
+
+    >select {
+      margin: 10px 20px;
+    }
+
+  }
+
+  .filterTitle {
+    height: 36px;
+    padding: 10px;
+    font-weight: 700;
+    border-bottom: 2px solid black;
+  }
+
+}
+
+table {
+  width: 100%;
+  padding: 20px;
+
+  th {
+    padding: 10px;
+  }
+
+  td {
+    padding: 10px;
+  }
+
+}
+
